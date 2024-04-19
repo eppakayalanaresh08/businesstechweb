@@ -1,0 +1,32 @@
+.item-cart{
+    color:red;
+    font-size: 20px;
+}
+.icon-item{
+    text-decoration: none;
+    color:#1e293b;
+    font-weight: 500;
+}
+
+.cart-icon{
+    margin-left: 0;
+    margin-bottom: 40px;
+    background-color: #1A7AC4;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    height: 28px;
+    width: 30px;
+    border-radius: 15px;
+    padding:2px;
+
+}
+
+
+.cartitemcount{
+    font-size: 20px;
+    margin:0px;;
+    padding: 0px;
+    color:aliceblue;
+
+}

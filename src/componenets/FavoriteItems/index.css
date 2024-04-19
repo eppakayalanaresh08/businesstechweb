@@ -1,0 +1,19 @@
+.item-cart{
+    color:red;
+}
+.icon-item{
+    text-decoration: none;
+    color:#1e293b;
+    font-weight: 500;
+    /* left:-80px; */
+
+}
+/* 
+.favorite-icon{
+    left:-80px;
+} */
+
+.countnumberFavorite{
+    top:-80px;
+    bottom: -100;
+}
