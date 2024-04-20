@@ -472,6 +472,13 @@ position: static;
   transform: rotate(45deg) translateZ(1px);
 }
 
+.nameparagraphelemnt{
+  color:#fff;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+
 @-webkit-keyframes opacity {
   0% {
     opacity: 0;
@@ -628,3 +635,9 @@ position: static;
 
 }
 
+
+
+.mapsElementcontainer{
+  height:100px;
+  width: 100px;
+}

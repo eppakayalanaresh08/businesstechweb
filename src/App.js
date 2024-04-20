@@ -1,6 +1,8 @@
 
 import React, { useState, useEffect, } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import GoogleMapReact from 'google-map-react';
+
 // import ProductPage from './componenets/Product';
 // import HomePage from './componenets/Home';
 // import ProductPage from './componenets/Product';
@@ -88,12 +90,26 @@ function App() {
 
   // };
 
-  // const defaultCenter = {
+  // const defaultCenterj = {
   //   lat: 40.712776,
   //   lng: -74.005974
   // };
+  // const defaultProps = {
+  //   center: {
+  //     lat: 10.99835602,
+  //     lng: 77.01502627
+  //   },
+  //   zoom: 11
+  // };
+  const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-
+  const defaultProps = {
+    center: {
+      lat: 40.712776,
+      lng: -74.005974
+    },
+    zoom: 11
+  };
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -136,7 +152,7 @@ function App() {
             </nav>
             <div>
               <h1 className='limeArtheading'>LimeArt</h1>
-              <h1 className='nameparagraph'>
+              <h1 className='nameparagraphelemnt'>
               One stop shop for your Soap making and Cosmetic Raw materials
               </h1>
             </div>
@@ -236,6 +252,20 @@ function App() {
                 center={defaultCenter}
               />
             </LoadScript> */}
+
+    <div style={{ height: '40vh', width: '20vw',marginLeft:200 }}>
+      <GoogleMapReact
+        bootstrapURLKeys={{ key: "AIzaSyC-d-7RR_MQ45QLQXKSzOxviR2l11kN3wk"}}
+        defaultCenter={defaultProps.center}
+        defaultZoom={defaultProps.zoom}
+      >
+        <AnyReactComponent
+          lat={59.955413}
+          lng={30.337844}
+          text="My Marker"
+        />
+      </GoogleMapReact>
+    </div>
             <div className='namecontainer'>
               <h1 className='nameElementlocation'>Address</h1>
               <p className="nameparagraph">LimeArt, No 3/1,therkku thottam,linganoor,pn
