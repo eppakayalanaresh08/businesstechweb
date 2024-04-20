@@ -13,7 +13,7 @@ import './App.css'
 
 import Cart from './componenets/Cart';
 import CartIcon from './componenets/CartIcon';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+// import { GoogleMap, LoadScript } from '@react-google-maps/api';
 // import FavoriteItemsIcon from './componenets/FavoriteItems';
 import Favorite from './componenets/Favorite';
 
@@ -82,16 +82,16 @@ function App() {
   }
 
 
-  const mapStyles = {
-    height: "40vh",
-    width: "25%",
+  // const mapStyles = {
+  //   height: "40vh",
+  //   width: "25%",
 
-  };
+  // };
 
-  const defaultCenter = {
-    lat: 40.712776,
-    lng: -74.005974
-  };
+  // const defaultCenter = {
+  //   lat: 40.712776,
+  //   lng: -74.005974
+  // };
 
 
   const scrollToSection = (id) => {
@@ -229,13 +229,13 @@ function App() {
           <h1 className='nameLocation'>Location
           </h1>
           <div className='locationContainer'>
-            <LoadScript googleMapsApiKey="AIzaSyC-d-7RR_MQ45QLQXKSzOxviR2l11kN3wk&libraries=visualization">
+            {/* <LoadScript googleMapsApiKey="AIzaSyC-d-7RR_MQ45QLQXKSzOxviR2l11kN3wk&libraries=visualization">
               <GoogleMap
                 mapContainerStyle={mapStyles}
                 zoom={10}
                 center={defaultCenter}
               />
-            </LoadScript>
+            </LoadScript> */}
             <div className='namecontainer'>
               <h1 className='nameElementlocation'>Address</h1>
               <p className="nameparagraph">LimeArt, No 3/1,therkku thottam,linganoor,pn
