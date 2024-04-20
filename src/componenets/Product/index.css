@@ -1,6 +1,10 @@
 .products-details-main-container{
     padding: 3rem;
 }
+
+.product-detail-description{
+    font-weight: 500;
+}
 .product-detail-desc-container{
     display: flex;
     flex-direction: column;
@@ -11,6 +15,8 @@
     margin-left: 1rem;
     padding: 1rem;
     
+
+
 }
 @media screen and (max-width) {
     .product-detail-desc-container{

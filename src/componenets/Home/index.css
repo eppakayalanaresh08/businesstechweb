@@ -44,12 +44,18 @@
     height:80;
     border-radius:8px;
 }
-.products-list-description{
-    padding: 1em;
-    font-size: small;
+.product-list-description-text{
+    /* padding: 1em; */
+    /* font-size: small; */
+    font-weight: 500;
 }
 .product-details-link{
     text-decoration: none;
     color: black;
     width: auto;
+}
+
+.priceElement{
+    font-weight: 500;
+
 }

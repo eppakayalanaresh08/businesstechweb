@@ -23,7 +23,7 @@ const Cart = ({ cartItems, removeFromCart }) => {
               </div>
           ))}
           <div className="cart-total">
-            <p className="total-price">Total Price: ${totalPrice}</p>
+            <p className="total-price price-Element">Total Price: ${totalPrice}</p>
           </div>
         </div>
       )}

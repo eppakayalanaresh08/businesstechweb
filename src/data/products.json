@@ -1,66 +1,65 @@
 [
-    {
-      "id": 1,
-      "name": "GB",
-      "price": 10.99,
-      "image": "https://via.placeholder.com/600/92c952",
-      "quantity": 1
-    },
-    {
-      "id": 2,
-      "name": "Corexico Collagen",
-      "price": 20.49,
-      "image": "https://via.placeholder.com/600/771796",
-      "quantity": 5
-    },
-    {
-        "id": 3,
-        "name": "Lite",
-        "price": 20.49,
-        "image": "https://via.placeholder.com/600/24f355",
-        "quantity": 5
-    },
-    {
-    "id": 4,
-    "name": "MakeUp Kit",
-    "price": 20.49,
-    "image": "https://via.placeholder.com/600/d32776",
-    "quantity": 5
-    },
-    {
-    "id": 5,
-    "name": "Misolo Cosmatic",
-    "price": 20.49,
-    "image": "https://via.placeholder.com/600/f66b97",
-    "quantity": 5
-    },
-    {
-    "id": 6,
-    "name": "Ditox",
-    "price": 20.49,
-    "image": "https://via.placeholder.com/600/56a8c2",
+  {
+    "id": 1,
+    "name": "Transparent Shampoo Base",
+    "price": 10.99,
+    "image": "https://via.placeholder.com/600/92c952",
     "quantity": 1
-    },
-    {
-    "id": 7,
-    "name": "Collagen Peptides",
+  },
+  {
+    "id": 2,
+    "name": "Pearly Shampoo Base",
     "price": 20.49,
-    "image": "https://via.placeholder.com/600/b0f7cc",
+    "image": "https://via.placeholder.com/600/771796",
     "quantity": 5
-    },
-    {
-    "id": 8,
-    "name": "Binoid CBD",
-    "price": 20.49,
-    "image": "https://via.placeholder.com/600/54176f",
-    "quantity": 5
-    },
-    {
-    "id": 9,
-    "name": "CR",
-    "price": 20.49,
-    "image": "https://via.placeholder.com/600/51aa97",
-    "quantity": 5
-    }
-  ]
-  
+  },
+  {
+      "id": 3,
+      "name": "Herbal Shampoo Base ",
+      "price": 20.49,
+      "image": "https://via.placeholder.com/600/24f355",
+      "quantity": 5
+  },
+  {
+  "id": 4,
+  "name": "Shower Gel Base",
+  "price": 20.49,
+  "image": "https://via.placeholder.com/600/d32776",
+  "quantity": 5
+  },
+  {
+  "id": 5,
+  "name": "Transparent Facewash Base",
+  "price": 20.49,
+  "image": "https://via.placeholder.com/600/f66b97",
+  "quantity": 5
+  },
+  {
+  "id": 6,
+  "name": "Pearly Facewash Base",
+  "price": 20.49,
+  "image": "https://via.placeholder.com/600/56a8c2",
+  "quantity": 1
+  },
+  {
+  "id": 7,
+  "name": "Collagen Peptides",
+  "price": 20.49,
+  "image": "https://via.placeholder.com/600/b0f7cc",
+  "quantity": 5
+  },
+  {
+  "id": 8,
+  "name": "Hair Serum Base",
+  "price": 20.49,
+  "image": "https://via.placeholder.com/600/54176f",
+  "quantity": 5
+  },
+  {
+  "id": 9,
+  "name": "Face Serum Base",
+  "price": 20.49,
+  "image": "https://via.placeholder.com/600/51aa97",
+  "quantity": 5
+  }
+]
